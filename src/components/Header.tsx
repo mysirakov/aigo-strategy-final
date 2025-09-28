@@ -14,9 +14,9 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <img
-              src="https://aigoconsult.com/wp-content/uploads/2024/11/AIGO-Logo.png"
+              src="https://aigoconsult.com/wp-content/uploads/2025/09/aigo-logo-clear.png"
               alt="AIGO Consult Logo"
-              className="h-8 w-auto"
+              className="h-12 w-auto"
             />
           </div>
           <nav className="hidden md:flex items-center space-x-8">
