@@ -1,45 +1,25 @@
 import React from 'react';
-import { Zap } from 'lucide-react';
 
 const Header = () => {
+  // The scrollToSection function is no longer needed as navigation buttons are removed.
+  // Keeping it for now in case future requirements reintroduce similar functionality.
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     element?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50">
+    <header className="fixed top-0 w-full backdrop-blur-sm z-50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <Zap className="w-8 h-8 text-blue-600" />
-            <span className="text-2xl font-bold text-gray-900">AIGO Consult</span>
+          <div className="flex items-center">
+            <img
+              src="https://aigoconsult.com/wp-content/uploads/2024/11/AIGO-Logo.png"
+              alt="AIGO Consult Logo"
+              className="h-8 w-auto"
+            />
           </div>
           <nav className="hidden md:flex items-center space-x-8">
-            <button
-              onClick={() => scrollToSection('problem')}
-              className="text-gray-600 hover:text-blue-600 transition-colors"
-            >
-              Problem
-            </button>
-            <button
-              onClick={() => scrollToSection('solution')}
-              className="text-gray-600 hover:text-blue-600 transition-colors"
-            >
-              Solution
-            </button>
-            <button
-              onClick={() => scrollToSection('process')}
-              className="text-gray-600 hover:text-blue-600 transition-colors"
-            >
-              Process
-            </button>
-            <button
-              onClick={() => scrollToSection('results')}
-              className="text-gray-600 hover:text-blue-600 transition-colors"
-            >
-              Results
-            </button>
             <a
               href="https://form.jotform.com/252532719491057"
               target="_blank"
