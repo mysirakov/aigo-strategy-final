@@ -26,7 +26,7 @@ const Header = () => {
               rel="noopener noreferrer"
               className="bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-700 transition-colors font-semibold"
             >
-              Book Call
+              Book My FREE Strategy Call
             </a>
           </nav>
         </div>

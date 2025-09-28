@@ -26,7 +26,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg text-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-block"
             >
-              Book My Free Strategy Call Now
+              Book My FREE Strategy Call Now
             </a>
             <p className="text-sm text-gray-600 mt-2">Zero pressure. Maximum value. 30-minute call.</p>
           </div>
