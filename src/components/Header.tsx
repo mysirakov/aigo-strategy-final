@@ -16,7 +16,7 @@ const Header = () => {
             <img
               src="https://aigoconsult.com/wp-content/uploads/2025/09/aigo-logo-clear.png"
               alt="AIGO Consult Logo"
-              className="h-12 w-auto"
+              className="h-10 w-auto"
             />
           </div>
           <nav className="hidden md:flex items-center space-x-8">
