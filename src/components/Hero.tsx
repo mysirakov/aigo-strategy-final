@@ -16,7 +16,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
-            Book Your Free AI Strategy Call - Transform operational chaos into a well-oiled machine
+            Transform operational chaos into a well-oiled machine
           </p>
           
           <div className="mb-12">
